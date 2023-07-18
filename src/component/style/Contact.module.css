@@ -1,0 +1,62 @@
+.mainDiv{
+    position: relative;
+    width: 100%;
+}
+.contact{
+    height: 350px;
+    background-color: #000000;
+    padding-left: 14vw;
+    padding-top: 50px;
+}
+.main{
+    /* background-color: #00ffd5; */
+    width: 70vw;
+    height: 250px;
+    color: white;
+}
+.social{
+    float: right;
+    width: 20vw;
+    /* background-color: rgb(0, 66, 247); */
+    height: 120px;
+    text-align: start;
+}
+.bottomInfo{
+    width: 30vw;
+    /* background-color: rgb(0, 66, 247); */
+    height: 120px;
+    text-align: start;
+}
+
+.hrtag{
+    color:#ffffff;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 825px) {
+    .contact{
+        padding-top: 20px;
+    }
+
+    .social{
+        float: none;
+        width: 70vw;
+    }
+    .bottomInfo{
+        width: 70vw;
+        height: 80px;
+    }
+
+}
+
+
+@media only screen and (max-width: 478px) {
+    .hrtag{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    .social{
+        height: 75px;
+    }
+}
+

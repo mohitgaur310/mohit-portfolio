@@ -1,0 +1,167 @@
+.mainDiv{
+    position: relative;
+    background-color: #B2B2B2;
+    height: 770px;
+    width: 100%;
+}
+.topDiv{
+    position: relative;
+    top: 10vh;
+    left: 16vw;
+    font: bolder 34px Georgia, serif;
+    text-align: center;
+    color: black;
+    width: 65% ;
+}
+.project{
+    font: bolder 35px Georgia, serif;
+    letter-spacing: 1px;
+    /*margin-bottom: ;*/
+    /*padding-bottom: 5vh;*/
+}
+.brTag{
+    margin-top: 13px;
+    position: relative;
+    left: 47%;
+    border: 4px solid #7843e9;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.bottomDiv{
+    position: relative;
+    top: 12vh;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftDiv{
+    flex: 50%;
+    height: inherit;
+    font: bolder 35px Georgia, serif;
+    /*background-color: #333333;*/
+}
+.image{
+    position: relative;
+    top: 50px;
+    left: 11%;
+    width: 75%;
+}
+.rightDiv{
+    position: relative;
+    top: 50px;
+    flex: 40%;
+}
+.butDiv{
+    position: relative;
+    top: 30px;
+    margin-left: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.proBut1{
+    font: bolder 25px  serif;
+    padding: 10px 40px ;
+    background-color: #7843e9;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    transition: transform 1.6s;
+    margin-right:10px ;
+}
+.proBut2{
+    font: bolder 25px  serif;  
+    padding: 10px 40px ;
+    background-color: #7843e9;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    transition: transform 1.6s;
+}
+.proBut1:hover{
+    top: 28px;
+}
+.proBut2:hover{
+    top: 28px;
+}
+
+@media (max-width: 860px) {
+    
+    .leftDiv, .rightDiv {
+        flex: 100%;
+        text-align: center;
+    }
+    .rightDiv{
+        top: 110px;
+    }
+    .image{
+        left: 0;
+    }
+    .paraDiv{
+        position: relative;
+        left: 10%;
+
+    }
+}
+@media (max-width: 889px) {
+
+    .proBut1 ,.proBut2{
+        padding: 6px 30px ;
+        
+    } 
+}
+@media (max-width: 990px) {
+    .paraDiv{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .mainDiv{
+        height: 1050px;
+    }
+    .paraDiv{
+        width: 60%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 730px) {
+    
+    .rightDiv{
+        top: 50px;
+    }
+}
+@media (max-width: 680px) {
+
+    .rightDiv{
+        top: 20px;
+    }
+}
+@media (max-width: 580px) {
+
+    .rightDiv{
+        top: -90px;
+    }
+    .project{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 365px){
+    .proBut2, .proBut1{
+        padding: 4px 20px;
+        /* font-size: 20px; */
+    }   
+    .rightDiv{
+        top: -95x;
+    }
+    .mainDiv{
+        height: 1150px;
+    }
+}

@@ -1,0 +1,118 @@
+.name{
+  position: relative;
+  display: inline-block;
+  height: 930px;
+  width: 100%;
+}
+.gaur{
+  color: #000000;
+  position: absolute;
+  top: 42%;
+  left: 51%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+  text-align: center;
+}
+.image {
+  width: 100%;
+  /*height: 830px ;*/
+  height: 930px;
+
+  opacity: 60%;
+  /*position: relative;*/
+  /*top: 88px;*/
+}
+.mainTag{
+  font: bolder 45px Georgia, serif;
+  /*position: relative;*/
+  /*left: 8%;*/
+  padding-bottom: 2%;
+}
+.info{
+  font-family: serif;
+  font-size: 22px;
+  color: #333;
+}
+.proBut{
+  font: bolder 25px  serif;
+  position: relative;
+  top: 55px;
+  padding: 15px 70px ;
+  background-color: #7843e9;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  
+    /* transform: translate(0, -50%); */
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+  transition: transform .8s;
+}
+
+.proBut:hover{
+  top: 52px;
+}
+/* Scrol wheel animation starts */
+
+.scrollDowns {
+  position: relative;
+  top: 200px;
+  left: 49%;
+  right: 47vw;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #000000;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+@media screen and (max-width: 500px){
+   .proBut{
+     font: bold 20px  serif;
+     position: relative;
+     /*top: 55px;*/
+     left: -13% ;
+     padding: 10px 60px ;
+   }
+  .scrollDowns{
+    position: relative;
+    top: 120px;
+    left: 40%;
+    right: 47vw;
+  }
+  .mainTag{
+     font: bolder 35px Georgia, serif;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .mainTag{
+    font: bolder 27px Georgia, serif;
+  }
+  .proBut{
+    left: -22%;
+    padding: 10px 40px;
+  }
+}
